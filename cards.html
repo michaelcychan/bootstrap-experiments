@@ -9,14 +9,50 @@
 </head>
 <body>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  <h2>Container then card</h2>
+  <h2 class="my-5">Card from scratch</h2>
+  <div class="container my2">
+    <div class="card" style="width: 15rem;">
+      <div class="card-header">Card Header</div>
+      <img src="https://picsum.photos/300" alt="A random square pic" class="card-img-top">
+      <div class="row my-2">
+        <div class="col">
+          <div class="card-body">
+            Some random text
+          </div>
+        </div>
+      </div>
+      <div class="card-footer">Non-muted footer</div>
+    </div>
+    <div class="card my-3" style="width: 15rem;">
+      <div class="card-header">Card Header</div>
+      <h4 class="card-title mx-2">Card Title</h4>
+      <div class="card-footer text-muted">Muted Text Footer</div>
+    </div>
+    <div class="row">
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row">
+          <div class="col-md-4"><img src="https://picsum.photos/300/400" alt="" class="img-fluid"></div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Card Body</p>
+              <p class="card-footer text-muted">p card footer muted</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+  <h2 class="my-4">Container then card</h2>
   <div class="container my-2">
     <div class="card" style="width: 18rem;">
       <img src="https://picsum.photos/400/300" class="card-img-top" alt="a random pic from picsum">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-info">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -34,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row my-4">
       <div class="col-6">
         <div class="card w-75" style="width: 18rem;">
           <img src="https://picsum.photos/400/300" class="card-img-top" alt="a random pic from picsum">
