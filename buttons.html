@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  
+  <div class="container my-4">
+    <button>Normal button</button>
+    <button class="btn btn-primary">Click me!</button>
+    <button class="btn btn-primary btn-lg">Large</button>
+    <button class="btn btn-primary btn-sm">Small</button>
+    <button class="btn btn-outline-primary">Outline!</button>
+    <button class="btn btn-primary" disabled>Disabled 😭 </button>
+    <button class="btn btn-outline-primary" disabled>disabled outline 🚫 </button>
+  </div>
+
+  <div class="container my-4">
+    <button class="btn btn-primary" data-bs-toggle="button" id="toggleBtn">Click me!</button>
+    <button class="btn btn-outline-primary">Block!</button>
+  </div>
+
+  <div class="d-grid gap-2">
+    <!-- d-grid makes block buttons -->
+    <button class="btn btn-primary">Block!</button>
+    <button class="btn btn-outline-primary">Block Outline!</button>
+  </div>
+
+  <script async>
+    const buttonClicked=() =>{
+      console.log(document.getElementById("toggleBtn").innerText)
+      alert('You clicked me!')
+    }
+    document.getElementById("toggleBtn").addEventListener("click", buttonClicked);
+    
+  </script>
+  
+</body>
+</html>

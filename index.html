@@ -10,11 +10,17 @@
     [class*="col"] {
       padding: 1rem;
       background-color: #33b5e5;
-      border: 2px sollid #fff;
+      border: 2px solid #fff;
       color: #fff;
     }
     [class*="container"] {
-      margin-bottom: 10px;
+      border: 1px solid;
+    }
+    .child{
+      background-color: #ff44dd;
+    }
+    [class*="row"] {
+      border: 1px solid #ff0000;
     }
   </style>
 </head>
@@ -22,41 +28,123 @@
   <h1>Be Faithful, my friend!</h1>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-  <div class="container-md border">
+  <div class="container-sm">
+    <div class="row justify-content-sm-center"><div class="col-4 "><a href="./buttons.html"> Go to button page</a></div></div>
+    <div class="row justify-content-sm-center"><div class="col-4"><a href="./cards.html"> Go to card page</a></div></div>
+  </div>
+  <div class="container-sm border my-5">
 
       <div class="row">
-        <div class="col-lg-6 col-md-8" style="background-color:#bbb;">Trinitas</div>
+        <div class="col-lg-6 col-md-8" style="background-color:#bbb;">Only Three Columns</div>
       </div>
     
-    
     <div class="row">
-      <div class="col-md-4">Pater</div>
-      <div class="col-md-4">Filius</div>
-      <div class="col-md-4">Spiritus Sanctus</div>
+      <div class="col-md-4">Col One</div>
+      <div class="col-md-4">Col Two</div>
+      <div class="col-md-4">Col Three</div>
     </div>
 
   </div>
   <div></div>
 
-  <div class="containter-md border">
+  <div class="containter-md border my-4">
     <div class="row">
-      <div class="col-lg-6 col-md-8" style="background-color:#bbb;">The Twelve</div>
+      <div class="col-lg-6 col-md-8" style="background-color:#bbb;">The Twelve Months</div>
     </div>
     <div class="row">
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Peter</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">James (son of Zebedee)</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">John</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Andrew</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Philip</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Bartholomew</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Thomas</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Matthew</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">James (son of Alphaeus)</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Thaddeus</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Simon</div>
-      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">Judas</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">January</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">February</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">March</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">April</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">May</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">June</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">July</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">August</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">September</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">October</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">November</div>
+      <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">December</div>
+    </div>
+  </div>
+
+  <div></div>
+
+  <div class="container">
+    <div class="row align-items-start" style="height: 300px;">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+    </div>
+    <div class="row align-items-center" style="height: 300px;">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+    </div>
+    <div class="row align-items-end" style="height: 300px;">
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+      <div class="col">
+        One of three columns
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-2">
+        One of extra columns
+      </div>
+      <div class="col-2">
+        One of extra columns
+      </div>
+      <div class="col-2">
+        One of extra columns
+      </div>
+    </div>
+  </div>
+
+  <h2 class="text-center my-4">Gutters</h2>
+  <div class="container border my-5 ">
+    
+    <div class="row gx-5 gy-5">
+      <div class="col col-md-4 col-lg-2"><div class="child">1</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">2</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">3</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">4</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">5</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">6</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">7</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">8</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">9</div></div>
     </div>
   </div>
   
+  <div class="container border my-5 ">
+    
+    <div class="row gx-1 gy-1">
+      <div class="col col-md-4 col-lg-2"><div class="child">1</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">2</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">3</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">4</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">5</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">6</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">7</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">8</div></div>
+      <div class="col-md-4 col-lg-2"><div class="child">9</div></div>
+    </div>
+  </div>
 </body>
 </html>

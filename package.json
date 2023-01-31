@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "reload": "^3.2.1"
   }
 }
