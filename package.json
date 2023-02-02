@@ -4,6 +4,7 @@
   "description": "this is my experiment with bootstrap",
   "main": "index.js",
   "scripts": {
+    "dev": "npx reload -b",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
