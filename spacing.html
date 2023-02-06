@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-  <div class="container w-50 border border-info mx-auto">
+  <div class="container w-75 border border-info mx-auto">
     <div class="mt-4 border-primary mx-2 px-2 bg-success text-white-50">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, possimus necessitatibus! Totam magni reprehenderit veritatis qui similique eaque debitis ad autem? Officiis rem alias dolore minima eveniet nihil facere beatae odit, doloremque excepturi placeat soluta. Doloremque praesentium consequuntur temporibus eos quaerat. Commodi omnis veniam rerum provident, dolorum eos voluptate nisi!
       </p>
     </div>
-    <div class="mt-4 border-dark mx-2 pt-2 pb-1 ps-2 ps-5 bg-success bg-opacity-50">
+    <div class="mt-4 border-dark mx-2 pt-2 pb-1 ps-2 ps-5 bg-success bg-opacity-50 d-none d-lg-block">
+      <div class="text-danger">This block disappear when smaller than md</div>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nisi facere sequi maxime vero odio excepturi officiis asperiores alias, laborum distinctio labore, quia adipisci qui, laudantium obcaecati? Minima, quo tempora sed eius nisi excepturi pariatur, aperiam fugiat eligendi atque a reprehenderit temporibus. Doloribus similique sed voluptates saepe laborum, quidem facere.
     </div>
     <div style="
@@ -28,6 +29,53 @@
     </div>
     <div class="mt-4 w-50 mx-auto text-center bg-success text-white pt-1">
       How to center a div
+    </div>
+  </div>
+  <div class="container border border-success w-75 mt-5">
+    <h1 class="text-info">Flex</h1>
+    <div class="d-flex flex-column">
+      <div class="p-2 bd-highlight">
+        Flex Item 1
+      </div>
+      <div class="p-2 bd-highlight border">
+        Flex Item 2
+      </div>
+      <div class="p-2 bd-highlight">
+        Flex Item 3
+      </div>
+      <div class="d-flex flex-row-reverse">
+        <div class="p-2 bd-highlight">
+          Flex Item 1
+        </div>
+        <div class="p-2 bd-highlight border">
+          Flex Item 2
+        </div>
+        <div class="p-2 bd-highlight">
+          Flex Item 3
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="p-2 bd-highlight">
+          Flex Item 1
+        </div>
+        <div class="p-2 bd-highlight border">
+          Flex Item 2
+        </div>
+        <div class="p-2 bd-highlight">
+          Flex Item 3
+        </div>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div class="p-2 bd-highlight">
+          Flex Item 1
+        </div>
+        <div class="p-2 bd-highlight border">
+          Flex Item 2
+        </div>
+        <div class="p-2 bd-highlight">
+          Flex Item 3
+        </div>
+      </div>
     </div>
   </div>
   
